@@ -18,6 +18,11 @@ gem "puma", "~> 5.0"
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem "jsbundling-rails"
 
+
+# Import maps for JavaScript [https://github.com/rails/importmap-rails]
+gem "importmap-rails"  # ← この行を追加
+
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
